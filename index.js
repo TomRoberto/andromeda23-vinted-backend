@@ -23,6 +23,7 @@ const offerRoutes = require("./routes/offer");
 app.use(userRoutes);
 app.use(offerRoutes);
 
+// Ceci est une route pour dire boujour
 app.get("/", (req, res) => {
   res.json("Bienvenue sur mon serveur");
 });
